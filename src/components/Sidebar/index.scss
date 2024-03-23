@@ -13,12 +13,13 @@
 
     img {
       display: block;
-      margin: 8px auto;
-      width: 24px;
+      margin: 0px auto;
+      width: 40px;
       height: auto;
 
       &.sub-logo {
-        width: 50px;
+        width: 63px;
+        margin-top: 5px;
       }
     }
   }
