@@ -20,7 +20,7 @@ const Logo = () => {
       })
       .from(outlineLogoRef.current, {
         drawSVG: 0,
-        duration: 2,
+        duration: 5,
       })
 
     gsap.fromTo(
@@ -31,7 +31,7 @@ const Logo = () => {
       {
         opacity: 1,
         delay: 2,
-        duration: 1,
+        duration: 2,
       }
     )
   }, [])
