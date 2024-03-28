@@ -1,0 +1,23 @@
+.main {
+  justify-content: center;
+}
+
+.tagcloud {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  margin-left: 15%;
+  margin-bottom: 10%;
+  cursor: pointer;
+}
+
+.tagcloud--item:hover {
+  color: #c79b23
+}
+
+@media (max-width: 800px) {
+  .tagcloud {
+    margin: 0%;
+  }
+}
