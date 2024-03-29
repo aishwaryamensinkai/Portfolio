@@ -43,7 +43,7 @@ const Skills = () => {
             </a>
             &nbsp;profile for more details. Also you can checkout my cv on this
             &nbsp;
-            <a target="_blank" href="">
+            <a target="_blank" href="www.google.com">
               link
             </a>
             .
