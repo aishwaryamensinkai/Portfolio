@@ -9,7 +9,7 @@ const TextAnimation = ({ text }) => {
     width: hovered ? '120%' : '100%',
     transform: hovered ? 'scale(1.1)' : 'scale(1)',
     color: hovered ? 'white' : '#ffd700',
-    config: { tension: 400, friction: 20 },
+    config: { tension: 300, friction: 10 },
   })
 
   return (

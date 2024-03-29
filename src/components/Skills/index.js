@@ -1,21 +1,10 @@
-import { useEffect } from 'react'
+/* eslint-disable react/style-prop-object */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import TextAnimation from '../TextAnimation'
 import TextSphere from './TextSphere'
 import './index.scss'
-import { ToastContainer, toast } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css'
-import Preloader from '../Preloader'
 
 const Skills = () => {
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      toast.info('Scroll to Zoom In/Out', {
-        autoClose: 3000,
-      })
-    }, 4000)
-    return () => clearTimeout(timer)
-  }, [])
-
   return (
     <>
       <div className="container skills">
@@ -30,7 +19,7 @@ const Skills = () => {
           <p>
             Expert in front-end development including technologies like{' '}
             <span className="tech-tag">
-              HTML5, CSS3, JavaScript, jQuery, Angular, React, TypeScript,
+              HTML5, CSS3, JavaScript, jQuery, Angular2, React, TypeScript,
               Bootstrap, Sass, Git
             </span>
             , etc.
@@ -54,7 +43,7 @@ const Skills = () => {
             </a>
             &nbsp;profile for more details. Also you can checkout my cv on this
             &nbsp;
-            <a target="_blank" href="www.google.com">
+            <a target="_blank" href="">
               link
             </a>
             .
@@ -68,20 +57,6 @@ const Skills = () => {
           <div className="clear"></div>
         </div>
       </div>
-      <ToastContainer
-        position="bottom-right"
-        autoClose={3000}
-        newestOnTop={false}
-        rtl={false}
-        pauseOnFocusLoss
-        toastStyle={{
-          fontSize: '12px',
-          padding: '5px',
-          minHeight: 'unset',
-          borderRadius: '10px',
-        }}
-      />
-      <Preloader />
     </>
   )
 }
