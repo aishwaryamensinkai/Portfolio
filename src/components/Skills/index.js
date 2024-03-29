@@ -1,5 +1,6 @@
 /* eslint-disable react/style-prop-object */
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import TextAnimation from '../TextAnimation'
 import TextSphere from './TextSphere'
 import './index.scss'
 
@@ -8,12 +9,16 @@ const Skills = () => {
     <>
       <div className="container skills">
         <div className="text-zone">
-          <h1 className="blast-root blast">Skills &#038; Experience</h1>
+          <h1 className="blast-root">
+            <TextAnimation text="Skills" />
+            <TextAnimation text="&#038;" />
+            <TextAnimation text="Experience" />
+          </h1>
           <p>
             Expert in front-end development including technologies like{' '}
             <span className="tech-tag">
               HTML5, CSS3, JavaScript, jQuery, Angular2, React, TypeScript,
-              Jasmine, Bootstrap, Sass, Git
+              Bootstrap, Sass, Git
             </span>
             , etc.
           </p>

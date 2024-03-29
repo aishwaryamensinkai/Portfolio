@@ -1,0 +1,18 @@
+.text-animation {
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.text-animation.hovered {
+  color: white;
+}
+
+.spanCss{
+  font-size: 53px;
+  font-family: font-file-82132;
+  color: #ffd700;
+  font-weight: 600;
+  line-height: 50px;
+  cursor: default;
+  opacity: 1;
+}
