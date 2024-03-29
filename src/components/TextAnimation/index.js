@@ -20,7 +20,7 @@ const TextAnimation = ({ text }) => {
         ...springProps,
         overflow: 'hidden',
         margin: 0,
-        display: 'contents',
+        display: 'inline-block',
         color: springProps.color,
       }}
       className="spanCss"

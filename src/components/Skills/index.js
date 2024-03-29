@@ -9,9 +9,11 @@ const Skills = () => {
     <>
       <div className="container skills">
         <div className="text-zone">
-          <h1 className="blast-root">
-            <TextAnimation text="Skills" />
-            <TextAnimation text="&#038;" />
+          <h1>
+            <p style={{ display: 'flex' }} className="extraCSS">
+              <TextAnimation text="Skills" />
+              <TextAnimation text="&#038;" />
+            </p>
             <TextAnimation text="Experience" />
           </h1>
           <p>
