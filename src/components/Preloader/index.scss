@@ -4,41 +4,20 @@
     top: 20px
   }
 }
+
 .preloader {
   position: fixed;
+  will-change: transform;
   top: 0;
   left: 0;
-  right: 0;
   bottom: 0;
+  right: 0;
   background: #022c43;
   z-index: 2;
+  display: none;
   overflow: hidden;
-  opacity: 0;
-  transition: opacity 0.9s ease;
-  /* Add a transition effect for opacity */
-}
-
-// .preloader {
-//   position: fixed;
-//   will-change: transform;
-//   top: 0;
-//   left: 0;
-//   bottom: 0;
-//   right: 0;
-//   background: #022c43;
-//   z-index: 2;
-//   display: none;
-//   overflow: hidden;
-//   height: 100%;
-//   width: 100%;
-
-//   &.visible {
-//     display: block;
-//   }
-// }
-
-.preloader.visible {
-  opacity: 1;
+  height: 100%;
+  width: 100%
 }
 
 .preloader .inner {
@@ -55,7 +34,7 @@
 }
 
 .preloader .inner>img {
-  width: 55px;
+  width: 47px;
   display: block;
   margin: 0 auto
 }
@@ -63,24 +42,34 @@
 .preloader .inner>span {
   color: #8d8d8d;
   margin-top: 9px;
-  font-size: 10px;
+  font-size: 9px;
   font-family: "Open Sans", sans-serif;
   letter-spacing: 3px;
   margin-bottom: 30px;
   display: block
 }
 
-.preloader {
-  .progress-bar {
-    height: 3px; 
-    background-color: #047765;
-    border-radius: 10px;
-    transition: width 0.1s ease;
+.preloader .progress-bar {
+  text-align: left
+}
 
-    .progress-bar_bg {
-      height: 100%;
-      background-color: #ffd700;
-      border-radius: 10px;
-    }
-  }
+.preloader .progress-bar_bg {
+  height: 1px;
+  background: #047765
+}
+
+.preloader .progress-bar_bg div {
+  height: 1px;
+  background: #ffd700;
+  width: 0
+}
+
+.preloader .progress-bar span {
+  color: #fff;
+  text-align: right;
+  float: left;
+  font-size: 27px;
+  font-family: font-file-82132;
+  margin-bottom: 10px;
+  display: block
 }
