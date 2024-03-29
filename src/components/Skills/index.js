@@ -1,10 +1,19 @@
-/* eslint-disable react/style-prop-object */
-/* eslint-disable jsx-a11y/anchor-is-valid */
+import { useEffect } from 'react'
 import TextAnimation from '../TextAnimation'
 import TextSphere from './TextSphere'
 import './index.scss'
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 const Skills = () => {
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      toast.info('Scroll to Zoom In/Out', {
+        autoClose: 3000,
+      })
+    }, 4000)
+    return () => clearTimeout(timer)
+  }, [])
   return (
     <>
       <div className="container skills">
@@ -22,7 +31,7 @@ const Skills = () => {
               HTML5, CSS3, JavaScript, jQuery, Angular2, React, TypeScript,
               Bootstrap, Sass, Git
             </span>
-            , etc.
+            {/* Noncompliant: ambiguous spacing */}, etc.
           </p>
           <p>
             I'm not a designer but I have a good sense of aesthetics, and
@@ -34,6 +43,7 @@ const Skills = () => {
           </p>
           <p>
             Visit my &nbsp;
+            {/* Noncompliant: ambiguous spacing */}
             <a
               target="_blank"
               href="https://www.linkedin.com/in/aishwarya-mensinkai/"
@@ -41,12 +51,13 @@ const Skills = () => {
             >
               LinkedIn
             </a>
+            {/* Noncompliant: ambiguous spacing */}
             &nbsp;profile for more details. Also you can checkout my cv on this
             &nbsp;
             <a target="_blank" href="www.google.com">
               link
             </a>
-            .
+            {/* Noncompliant: ambiguous spacing */}.
           </p>
         </div>
         <div className="clear"></div>
@@ -57,6 +68,19 @@ const Skills = () => {
           <div className="clear"></div>
         </div>
       </div>
+      <ToastContainer
+        position="bottom-right"
+        autoClose={3000}
+        newestOnTop={false}
+        rtl={false}
+        pauseOnFocusLoss
+        toastStyle={{
+          fontSize: '12px',
+          padding: '5px',
+          minHeight: 'unset',
+          borderRadius: '10px',
+        }}
+      />
     </>
   )
 }
