@@ -2,22 +2,54 @@
   justify-content: center;
 }
 
-.tagcloud {
+.cloudContainer--item:hover {
+  color: #c79b23
+}
+
+.cloud-Container {
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 17px;
   font-weight: 500;
-  margin-left: 15%;
-  margin-bottom: 10%;
-  cursor: pointer;
+  margin: 0 auto;
+  width: fit-content;
+  margin-bottom: 1%;
+  cursor: pointer !important;
+  transition: transform 0.7s ease;
+}
+
+.zoomed-out {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50%;
+}
+
+.zoomed-in {
+  margin-top: 0%;
+  margin-left: 13%;
+}
+
+@media (max-width: 800px) {
+  .cloudContainer {
+    margin: 0%;
+  }
+  .tagcloud {
+    margin: 0%;
+  }
+}
+
+.tagcloud {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0 auto;
+  width: fit-content;
+  margin-bottom: 1%;
+  cursor: pointer !important;
+  transition: transform 0.7s ease;
 }
 
 .tagcloud--item:hover {
   color: #c79b23
-}
-
-@media (max-width: 800px) {
-  .tagcloud {
-    margin: 0%;
-  }
 }
