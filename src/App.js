@@ -5,18 +5,34 @@ import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
 import Skills from './components/Skills'
+import Preloader from './components/Preloader'
+import { useEffect, useState } from 'react'
 
 function App() {
+  const [showPreloader, setShowPreloader] = useState(true)
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowPreloader(false)
+    }, 3000)
+
+    return () => clearTimeout(timer)
+  }, [])
+
   return (
     <>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/skills" element={<Skills />} />
-        </Route>
-      </Routes>
+      {showPreloader && <Preloader />}
+      {!showPreloader && (
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/pre" element={<Preloader />} />
+          </Route>
+        </Routes>
+      )}
     </>
   )
 }
