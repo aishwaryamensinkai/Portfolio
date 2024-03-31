@@ -43,10 +43,7 @@ function Timeline() {
                 {element.location}
               </h5>
               {element.description && ( // Ensure description is present
-                <p
-                  className="vertical-timeline-element-description"
-                  style={{ color: '#444444 !important' }}
-                >
+                <p className="vertical-timeline-element-description desc">
                   {element.description}
                 </p>
               )}

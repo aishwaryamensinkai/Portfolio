@@ -18,8 +18,15 @@ h3 {
   color: white !important;
 }
 
+
+
 #description {
   margin: 1.5em 0 2em 0;
+  color: black !important;
+}
+
+.desc{
+  color: black !important;
 }
 
 @media only screen and (max-width: 1700px) {
@@ -30,13 +37,3 @@ h3 {
     margin-top: 1.5em;
   }
 }
-
-// .vertical-timeline::before {
-//     content: '';
-//     position: absolute;
-//     top: 0;
-//     left: 53% !important;
-//     height: 100%;
-//     width: 4px;
-//     background: var(--line-color);
-// }

@@ -26,8 +26,8 @@ const Education = () => {
     <>
       {showPreloader && <Preloader />}
       {!showPreloader && (
-        <div className="container skills">
-          <div className="text-zone">
+        <div className="container skills scrollable">
+          <div className="text-zone with">
             <br />
             <h1>
               <AnimatedLetters

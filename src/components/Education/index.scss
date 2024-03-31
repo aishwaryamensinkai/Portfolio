@@ -15,8 +15,16 @@
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
+}
+
+.with{
+width: auto !important;
+}
+
+.scrollable{
   overflow-y: auto; // Enable vertical scrolling
 }
+
 
 .container.skills .text-zone h1:before {
   content: '<h1>';

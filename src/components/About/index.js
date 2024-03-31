@@ -37,7 +37,7 @@ const About = () => {
       {showPreloader && <Preloader />}
       {!showPreloader && (
         <div className="container about-page">
-          <div className="text-zone">
+          <div className="text-zone" style={{ textAlign: 'justify' }}>
             <h1>
               <AnimatedLetters
                 letterClass={letterClass}
