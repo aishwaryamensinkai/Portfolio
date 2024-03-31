@@ -9,6 +9,8 @@ import {
   faEnvelope,
   faHome,
   faUser,
+  // faAward,
+  faUserGraduate,
 } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import Preloader from '../Preloader'
@@ -55,6 +57,14 @@ const Sidebar = () => {
               className="skills-link"
             >
               <FontAwesomeIcon icon={faCog} color="#4d4d4e" />
+            </NavLink>
+            <NavLink
+              exact="true"
+              activeclassname="active"
+              to="/education"
+              className="education-link"
+            >
+              <FontAwesomeIcon icon={faUserGraduate} color="#4d4d4e" />
             </NavLink>
             <NavLink
               exact="true"

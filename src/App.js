@@ -7,6 +7,7 @@ import Contact from './components/Contact'
 import Skills from './components/Skills'
 import Preloader from './components/Preloader'
 import { useEffect, useState } from 'react'
+import Education from './components/Education'
 
 function App() {
   const [showPreloader, setShowPreloader] = useState(true)
@@ -29,7 +30,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/skills" element={<Skills />} />
-            <Route path="/pre" element={<Preloader />} />
+            <Route path="/education" element={<Education />} />
           </Route>
         </Routes>
       )}
