@@ -23,6 +23,17 @@ let timelineElements = [
   },
   {
     id: 3,
+    title: 'Maters in Computer Science',
+    company: 'Syracuse University',
+    type: 'Part-Time (CASE Co-op Program)',
+    location: 'Syracuse, New York, USA',
+    description:
+      'Coursework: Mobile Application Programming, Design and Analysis of Algorithms, Database Management System, Computer Architecture, Social Media and Data Mining, Data Analysis And Decision Test, Operating Systems, Object Oriented Design, Intro to Machine Learning & Algorithms',
+    date: 'November 2022 - June 2023 • 8 mo',
+    image: 'syracuse.png',
+  },
+  {
+    id: 4,
     title: 'Software Engineer',
     company: 'Anicca Data Science Solutions',
     type: 'Full-Time',
@@ -33,7 +44,7 @@ let timelineElements = [
     image: 'anicca.png',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Engineer-Trainee',
     company: 'Pelatro Solutions Private Limited',
     type: 'Full-Time',
@@ -44,7 +55,7 @@ let timelineElements = [
     image: 'pelatro.png',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Web Development Intern',
     company: 'Felicity',
     type: 'Internship',
@@ -52,18 +63,7 @@ let timelineElements = [
     description:
       'Migrated code from AngularJS to Angular 7, reviewed designed wireframes on Figma, and analyzed requirements to build reusable components and libraries. Integrated front-end applications with back-end code to ensure fast and error-free loading of websites.',
     date: 'April 2021 - July 2021 • 4 mos',
-    image: 'felicity.png',
-  },
-  {
-    id: 6,
-    title: 'Web Development Intern',
-    company: 'Felicity',
-    type: 'Internship',
-    location: 'Jaipur, Rajasthan, India',
-    description:
-      'Worked with a team of 4 engineers to create and design wireframes using Figma, developed a web application leveraging Angular, Nodejs, Express.js, and MongoDB. Constructed a hotel management database model, data flows, and functional application prototype.',
-    date: 'April 2021 - July 2021 • 4 mos',
-    image: '',
+    image: 'felicity.jpeg',
   },
   {
     id: 7,

@@ -14,7 +14,7 @@ const TextSphere = () => {
       'HTML 5',
       'TagCloud',
       'JavaScript',
-      'CSS3',
+      'CSS',
       'TypeScript',
       'REST',
       'JSON',
@@ -28,6 +28,9 @@ const TextSphere = () => {
       'C++',
       'Java',
       'Python',
+      'SwiftUI',
+      'Tailwind',
+      'SQL',
     ]
     const options = {
       radius: 350,

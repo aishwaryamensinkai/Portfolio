@@ -1,48 +1,44 @@
+import React from 'react'
 import './index.scss'
 import timelineElements from './timelineElements'
-
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from 'react-vertical-timeline-component'
-
 import 'react-vertical-timeline-component/style.min.css'
-
-import SchoolIcon from '../../../assets/assetsTimeline/kle.png'
-import WorkIcon from '../../../assets/assetsTimeline/kle.png'
+import Placeholder from '../../../assets/assetsTimeline/placeholder.png'
 
 function Timeline() {
-  let workIconStyles = { background: '#06D6A0' }
-  let schoolIconStyles = { background: '#f9c74f' }
-
+  let iconStyles = { background: '#FFF' }
   return (
     <div>
       <VerticalTimeline>
         {timelineElements.map((element) => {
-          let isWorkIcon =
-            element.type === 'Full-Time' || element.type === 'Part-Time'
+          let iconImage
+          if (element.image) {
+            iconImage = require(`../../../assets/assetsTimeline/${element.image}`)
+          } else {
+            iconImage = Placeholder
+          }
 
           return (
             <VerticalTimelineElement
-              key={element.id} // Adding key prop
+              key={element.id}
               date={element.date}
               dateClassName="date"
-              iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
-              icon={
-                isWorkIcon ? (
-                  <img src={WorkIcon} alt="Work Icon" />
-                ) : (
-                  <img src={SchoolIcon} alt="School Icon" />
-                )
-              }
+              iconStyle={iconStyles}
+              icon={<img src={iconImage} alt={element.company} />}
             >
+              <h3 className="vertical-timeline-element-title">
+                {element.company}
+              </h3>
               <h3 className="vertical-timeline-element-title">
                 {element.title}
               </h3>
               <h5 className="vertical-timeline-element-subtitle">
                 {element.location}
               </h5>
-              {element.description && ( // Ensure description is present
+              {element.description && (
                 <p className="vertical-timeline-element-description desc">
                   {element.description}
                 </p>
