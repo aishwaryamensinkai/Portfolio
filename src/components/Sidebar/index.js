@@ -9,8 +9,8 @@ import {
   faEnvelope,
   faHome,
   faUser,
-  // faAward,
   faUserGraduate,
+  faProjectDiagram,
 } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import Preloader from '../Preloader'
@@ -53,6 +53,14 @@ const Sidebar = () => {
             <NavLink
               exact="true"
               activeclassname="active"
+              to="/education"
+              className="education-link"
+            >
+              <FontAwesomeIcon icon={faUserGraduate} color="#4d4d4e" />
+            </NavLink>
+            <NavLink
+              exact="true"
+              activeclassname="active"
               to="/skills"
               className="skills-link"
             >
@@ -61,10 +69,10 @@ const Sidebar = () => {
             <NavLink
               exact="true"
               activeclassname="active"
-              to="/education"
-              className="education-link"
+              to="/projects"
+              className="project-link"
             >
-              <FontAwesomeIcon icon={faUserGraduate} color="#4d4d4e" />
+              <FontAwesomeIcon icon={faProjectDiagram} color="#4d4d4e" />
             </NavLink>
             <NavLink
               exact="true"
@@ -92,24 +100,6 @@ const Sidebar = () => {
                 href="https://github.com/aishwaryamensinkai"
               >
                 <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
-              </a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://www.linkedin.com/in/aishwarya-mensinkai/"
-              >
-                <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
-              </a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://www.linkedin.com/in/aishwarya-mensinkai/"
-              >
-                <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
               </a>
             </li>
           </ul>
