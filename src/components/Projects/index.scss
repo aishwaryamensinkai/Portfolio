@@ -1,0 +1,40 @@
+.text-animate-hover {
+  &:hover {
+    color: #fff;
+  }
+}
+
+.container {
+  width: 100%;
+  height: 90%;
+  min-height: 566px;
+  position: absolute;
+  opacity: 0;
+  top: 5%;
+  margin: 0 auto;
+  z-index: 1;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.with {
+  width: auto !important;
+}
+
+.scrollable1 {
+  overflow-y: auto;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+}
+
+.projects-grid {
+  width: 80vw;
+  height: 100%;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+}

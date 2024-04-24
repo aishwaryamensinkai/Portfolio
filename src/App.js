@@ -8,6 +8,7 @@ import Skills from './components/Skills'
 import Preloader from './components/Preloader'
 import { useEffect, useState } from 'react'
 import Education from './components/Education'
+import Projects from './components/Projects'
 
 function App() {
   const [showPreloader, setShowPreloader] = useState(true)
@@ -31,6 +32,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/education" element={<Education />} />
+            <Route path="/projects" element={<Projects />} />
           </Route>
         </Routes>
       )}
