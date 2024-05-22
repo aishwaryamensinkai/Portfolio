@@ -44,3 +44,10 @@
   stroke: #ffd700;
   stroke-width: 3;
 }
+
+@media screen and (max-width: 1200px) {
+  .logo-container {
+    display: none;
+  }
+}
+

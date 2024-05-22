@@ -34,6 +34,12 @@ const projectsData = [
     link: 'https://aishwaryamensinkai.github.io/FlickrImages/firstpage',
     source: 'https://github.com/aishwaryamensinkai/FlickrImages',
   },
+  {
+    type: 'WEB-APP',
+    title: 'TradeMaster',
+    image: 'trademaster',
+    source: 'https://github.com/aishwaryamensinkai/TradeMaster',
+  },
 ]
 
 export default projectsData

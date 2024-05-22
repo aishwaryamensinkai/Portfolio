@@ -15,9 +15,19 @@ import {
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import Preloader from '../Preloader'
 import { useEffect, useState } from 'react'
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 
 const Sidebar = () => {
   const [showPreloader, setShowPreloader] = useState(true)
+  const [showMenu, setShowMenu] = useState(false)
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu)
+  }
+
+  const handleNavLinkClick = () => {
+    setShowMenu(false)
+  }
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -33,13 +43,23 @@ const Sidebar = () => {
     <>
       {showPreloader && <Preloader />}
       {!showPreloader && (
-        <div className="nav-bar">
+        <div className={`nav-bar ${showMenu ? 'show' : ''}`}>
           <Link className="logo" to="/">
             <img src={LogoA} alt="logo" />
             <img src={LogoSubtitle} alt="logo" className="sub-logo" />
           </Link>
-          <nav>
-            <NavLink exact="true" activeclassname="active" to="/">
+          <FontAwesomeIcon
+            icon={showMenu ? faTimes : faBars}
+            className="hamburger-icon"
+            onClick={toggleMenu}
+          />
+          <nav className={showMenu ? 'mobile-show' : ''}>
+            <NavLink
+              exact="true"
+              activeclassname="active"
+              to="/"
+              onClick={handleNavLinkClick}
+            >
               <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
             </NavLink>
             <NavLink
@@ -47,6 +67,7 @@ const Sidebar = () => {
               activeclassname="active"
               to="/about"
               className="about-link"
+              onClick={handleNavLinkClick}
             >
               <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
             </NavLink>
@@ -55,6 +76,7 @@ const Sidebar = () => {
               activeclassname="active"
               to="/education"
               className="education-link"
+              onClick={handleNavLinkClick}
             >
               <FontAwesomeIcon icon={faUserGraduate} color="#4d4d4e" />
             </NavLink>
@@ -63,6 +85,7 @@ const Sidebar = () => {
               activeclassname="active"
               to="/skills"
               className="skills-link"
+              onClick={handleNavLinkClick}
             >
               <FontAwesomeIcon icon={faCog} color="#4d4d4e" />
             </NavLink>
@@ -71,6 +94,7 @@ const Sidebar = () => {
               activeclassname="active"
               to="/projects"
               className="project-link"
+              onClick={handleNavLinkClick}
             >
               <FontAwesomeIcon icon={faProjectDiagram} color="#4d4d4e" />
             </NavLink>
@@ -79,6 +103,7 @@ const Sidebar = () => {
               activeclassname="active"
               to="/contact"
               className="contact-link"
+              onClick={handleNavLinkClick}
             >
               <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
             </NavLink>

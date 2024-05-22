@@ -152,6 +152,7 @@
 .hamburger-icon,
 .close-icon {
   display: none;
+  font-size: 25px;
 }
 
 
@@ -176,6 +177,7 @@
       margin: 0;
       z-index: 2;
       position: fixed;
+      margin-left: 50%;
 
       &.mobile-show {
         display: block;
@@ -183,15 +185,16 @@
 
       a {
         display: flex;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
-      }
+        margin-left: 20px;
+        }
 
       a:after {
         opacity: 1;
         position: initial;
         width: auto;
-        margin-left: 10PX;
+        margin-left: 10px;
       }
 
       a svg {
@@ -199,12 +202,24 @@
       }
     }
 
-    .hamburger-icon,
-    .close-icon {
-      position: absolute;
-      top: 15px;
-      right: 15px;
-      display: block;
-    }
+        .hamburger-icon,
+        .close-icon {
+          position: absolute;
+          top: 25px;
+          right: 25px;
+          display: block;
+          cursor: pointer;
+          z-index: 4;
+        }
+    
+        .close-icon {
+          display: none;
+        }
   }
+        nav {    
+          &.mobile-show {
+            display: block;
+          }
+        }
 }
+
