@@ -24,7 +24,7 @@
 
 .scrollable1 {
   overflow-y: auto;
-}
+  top: 52px !important;}
 
 .projects-container {
   display: flex;
@@ -37,4 +37,11 @@
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+}
+
+@media screen {
+  .scrollable1 {
+      overflow-y: auto;
+      top: 5%;
+    }
 }

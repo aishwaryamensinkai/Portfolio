@@ -1,4 +1,3 @@
-
 img {
   height: 60px;
   width: 60px;
@@ -19,14 +18,12 @@ h3 {
   color: white !important;
 }
 
-
-
 #description {
   margin: 1.5em 0 2em 0;
   color: black !important;
 }
 
-.desc{
+.desc {
   color: black !important;
 }
 
@@ -36,5 +33,27 @@ h3 {
     float: none !important;
     color: rgb(0, 0, 0);
     margin-top: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  img {
+    height: 50px; /* Adjust image size for smaller screens */
+    width: 50px;
+  }
+
+  .vertical-timeline-element-content {
+    padding: 1em 1.5em !important; /* Adjust padding for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  img {
+    height: 40px; /* Further reduce image size for extra small screens */
+    width: 40px;
+  }
+
+  .vertical-timeline-element-content {
+    padding: 0.5em 1em !important; /* Further reduce padding for extra small screens */
   }
 }

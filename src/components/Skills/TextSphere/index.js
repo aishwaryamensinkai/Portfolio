@@ -31,6 +31,7 @@ const TextSphere = () => {
       'SwiftUI',
       'Tailwind',
       'SQL',
+      'SwiftUI',
     ]
     const options = {
       radius: 350,
@@ -82,11 +83,7 @@ const TextSphere = () => {
     }
   }, [])
 
-  return (
-    <div className="main">
-      <div className="cloud-Container" ref={cloudContainerRef}></div>
-    </div>
-  )
+  return <div className="cloud-Container" ref={cloudContainerRef}></div>
 }
 
 export default TextSphere

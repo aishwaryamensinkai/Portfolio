@@ -43,7 +43,7 @@ const Skills = () => {
                 HTML5, CSS3, JavaScript, jQuery, Angular2, React, TypeScript,
                 Bootstrap, Sass, Git
               </span>
-              {/* Noncompliant: ambiguous spacing */}, etc.
+              , etc.
             </p>
             <p>
               I'm not a designer but I have a good sense of aesthetics, and
@@ -55,7 +55,6 @@ const Skills = () => {
             </p>
             <p>
               Visit my &nbsp;
-              {/* Noncompliant: ambiguous spacing */}
               <a
                 target="_blank"
                 href="https://www.linkedin.com/in/aishwarya-mensinkai/"
@@ -63,21 +62,17 @@ const Skills = () => {
               >
                 LinkedIn
               </a>
-              {/* Noncompliant: ambiguous spacing */}
               &nbsp;profile for more details. Also you can checkout my cv on
               this &nbsp;
               <a target="_blank" href="www.google.com">
                 link
               </a>
-              {/* Noncompliant: ambiguous spacing */}.
             </p>
           </div>
-          <div className="clear"></div>
           <div className="skills-charts">
             <div id="myCanvasContainer">
               <TextSphere id="myCanvas" />
             </div>
-            <div className="clear"></div>
           </div>
         </div>
       )}

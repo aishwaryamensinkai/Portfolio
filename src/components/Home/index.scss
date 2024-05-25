@@ -1,3 +1,8 @@
+.container.home-page {
+  overflow: hidden;
+  position: relative;
+}
+
 .home-page {
   .text-zone {
     position: absolute;
@@ -93,6 +98,9 @@
 }
 
 @media screen and (max-width: 992px) {
+  .container.home-page {
+    top: 60px;
+    }
   .home-page .text-zone {
     left: 5%;
     width: 60%;
@@ -122,6 +130,10 @@
   .home-page h1 {
     font-size: 36px;
     line-height: 34px;
+  }
+
+  .home-page h1 img{
+    width: 40px;
   }
 
   .home-page h2 {
@@ -207,4 +219,35 @@
     left: 0;
     margin: auto;
   }
+}
+
+.image-zone {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 55px;
+}
+
+.unique-image {
+  width: auto;
+  height: auto;
+  margin-left: 32px;
+  animation: float 3s ease-in-out infinite;
+}
+
+@media screen and (max-width: 992px) {
+  .image-zone{
+    margin: 0px 0px 0px 0px;
+  }
+  .unique-image {
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .unique-image {
+  max-width: 326px;
+  height: 250px;
+  border-radius: 100%;
+  margin-left: 0px;  
+}
 }

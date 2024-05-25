@@ -5,6 +5,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import Logo from './Logo'
 import Preloader from '../Preloader'
+import Photo from '../../assets/images/photo.jpeg'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -47,6 +48,9 @@ const Home = () => {
       {showPreloader && <Preloader />}
       {!showPreloader && (
         <div className="container home-page">
+          <div className="image-zone">
+            <img src={Photo} alt="Not available" className="unique-image" />
+          </div>
           <div className="text-zone">
             <h1>
               <span className={letterClass}>H</span>
