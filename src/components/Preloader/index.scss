@@ -67,6 +67,31 @@
   .preloader .inner {
     max-width: 80%;
     width: 80%;
-    top: 20px;
+    top: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .preloader .inner {
+    width: 80%;
+  }
+}
+
+@media (max-width: 530px) {
+  .preloader .inner {
+    width: 90%;
+  }
+
+  .preloader .inner>img {
+    width: 20%;
+    height: 10%;
+  }
+
+  .preloader .inner>span {
+    font-size: 10px;
+  }
+
+  .preloader .progress-bar span {
+    font-size: 12px;
   }
 }

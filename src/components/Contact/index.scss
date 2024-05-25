@@ -114,6 +114,12 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .container.contact-page {
+    top: 12%;
+    overflow-y: scroll;
+  }
+}
 
 @media screen and (max-width: 1200px) {
   .map-wrap {

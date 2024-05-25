@@ -1,7 +1,3 @@
-.main {
-  justify-content: center;
-}
-
 .cloudContainer--item:hover {
   color: #c79b23
 }
@@ -16,6 +12,7 @@
   margin-bottom: 1%;
   cursor: pointer !important;
   transition: transform 0.7s ease;
+  justify-content: center;
 }
 
 .zoomed-out {
@@ -29,14 +26,6 @@
   margin-left: 13%;
 }
 
-@media (max-width: 800px) {
-  .cloudContainer {
-    margin: 0%;
-  }
-  .tagcloud {
-    margin: 0%;
-  }
-}
 
 .tagcloud {
   color: #fff;
@@ -52,4 +41,17 @@
 
 .tagcloud--item:hover {
   color: #c79b23
+}
+
+
+@media only screen and (max-width: 768px) {
+  .tagcloud{
+    // width: fit-content;
+    height: 700px;
+    top: 1000px;
+  }
+
+  .cloud-Container {
+    transform: scale(0.5);
+    }
 }
