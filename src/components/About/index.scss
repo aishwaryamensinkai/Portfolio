@@ -1,6 +1,6 @@
 @media only screen and (max-width: 768px) {
 .container.about-page {
-  top: 12%;
+  top: 13%;
   padding: 30px; // Adjust padding as needed
 
   .text-zone {
@@ -96,7 +96,8 @@
 
   @media screen and (max-width: 480px) {
     width: 100%;
-    padding-top: 125%;
+    padding-top: 160%;
+    max-height: 35%;
   }
 }
 
