@@ -33,9 +33,7 @@ const Skills = () => {
             <h1>
               <p style={{ display: 'flex' }} className="extraCSS">
                 <TextAnimation text="Skills" />
-                <TextAnimation text="&#038;" />
               </p>
-              <TextAnimation text="Experience" />
             </h1>
             <p>
               Expert in front-end development including technologies like{' '}
@@ -46,12 +44,13 @@ const Skills = () => {
               , etc.
             </p>
             <p>
-              I'm not a designer but I have a good sense of aesthetics, and
-              experience in responsive, mobile-first web design. I put special
-              effort into optimizing my code and providing the best user
-              experience. I would love to give you any kind of support also
-              after the project's completion. I guarantee a commitment during
-              work on your project.
+              As a skilled designer with a strong sense of aesthetics and
+              extensive experience in responsive, mobile-first web design, I am
+              dedicated to optimizing code and delivering the best possible user
+              experience. I am committed to providing ongoing support even after
+              the project's completion, ensuring that your needs are met every
+              step of the way. My commitment to excellence guarantees that your
+              project will be handled with the utmost care and professionalism.
             </p>
             <p>
               Visit my &nbsp;

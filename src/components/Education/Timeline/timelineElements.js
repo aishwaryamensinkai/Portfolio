@@ -17,7 +17,7 @@ let timelineElements = [
     type: 'Part-Time (CASE Co-op Program)',
     location: 'Syracuse, New York, USA',
     description:
-      'Redesigned the website using WordPress technology, improving UI/UX aspects, and developing new pages as per requirements.',
+      'Revamped the Associated Gastroenterologists of CNY, PC website with WordPress, enhancing UI/UX and increasing session duration by 25% while reducing bounce rate by 15%. Created tailored pages that boosted organic traffic by 30% and appointment requests by 20%. Achieved a 95% stakeholder satisfaction rating through close collaboration and seamless integration of new features.',
     date: 'November 2022 - June 2023 • 8 mo',
     image: 'syracuse.png',
   },
@@ -39,7 +39,7 @@ let timelineElements = [
     type: 'Full-Time',
     location: 'Bangalore, Karnataka, India',
     description:
-      'Collaborated with legacy code, designed and developed new client-facing features using Angular, HTML5, CSS, and JavaScript. Ensured technical feasibility of UI/UX designs, developed reusable libraries, UI components, and applications for maximum speed and scalability.',
+      "Spearheaded the overhaul of McDonald's RFM application, boosting user engagement by 55% through Angular, HTML, CSS, and TypeScript. Modernized restaurant profiles, resulting in a 40% improvement in performance and scalability. Collaborated with cross-functional teams to ensure 100% user input validation and a 50% reduction in bugs.",
     date: 'March 2022 - July 2022 • 5 mos',
     image: 'anicca.png',
   },
@@ -50,7 +50,7 @@ let timelineElements = [
     type: 'Full-Time',
     location: 'Bangalore, Karnataka, India',
     description:
-      'Operated on the mViva product, deploying algorithms on a massive volume of data. Built and improved software, translated requirements into robust, scalable, and supportable test solutions, and examined closely with team members on requirement analysis.',
+      'Revised mViva product performance with cutting-edge algorithms, leading to a 20% increase in offer retrieval efficiency from customer call data. Translated requirements into robust test solutions, executing Java-based plans to resolve issues, accomplishing a 95% reduction in post-release bugs. Participated in achieving 100% test coverage through requirement analysis and collaboration, ensuring seamless product functionality.',
     date: 'August 2021 - February 2022 • 7 mos',
     image: 'pelatro.png',
   },
@@ -61,7 +61,7 @@ let timelineElements = [
     type: 'Internship',
     location: 'Jaipur, Rajasthan, India',
     description:
-      'Migrated code from AngularJS to Angular 7, reviewed designed wireframes on Figma, and analyzed requirements to build reusable components and libraries. Integrated front-end applications with back-end code to ensure fast and error-free loading of websites.',
+      'Migrated code from AngularJS to Angular 7, reviewed designed wireframes on Figma, and analyzed requirements to build reusable components and libraries. Integrated front-end and back-end systems with a 98% error-free loading rate. Accomplished specialized features (Video, Audio, and Chat Sessions) for Mental Health Counseling.',
     date: 'April 2021 - July 2021 • 4 mos',
     image: 'felicity.jpeg',
   },
@@ -75,6 +75,17 @@ let timelineElements = [
       'Coursework: Data Structures, Databases, Web Development, Computer Architecture, Database Management System, Computer Architecture, Data Mining and Analysis, Data Analysis And Decision Test, Operating Systems, Object-Oriented Design, Intro to Machine Learning & Algorithms,',
     date: 'August 2017 - June 2021 • 4 yrs',
     image: 'kle.png',
+  },
+  {
+    id: 8,
+    title: 'Intern',
+    company: 'Transil.Inc',
+    type: 'part-time',
+    location: 'Hubballi, Karnataka, India',
+    description:
+      'Presented a robust Hotel Management database model with integrated data flows and a functional prototype, earning university accolades. Engineered a dynamic web application using Angular, Node.js, Express.js, and MongoDB, boosting user engagement by 45%. Directed a team in using Figma for wireframes and designs, enhancing client input assessment and increasing project efficiency by 60%.',
+    date: 'January 2019 - May 2019 • 5 months',
+    image: 'transil.png',
   },
 ]
 
