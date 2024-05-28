@@ -35,37 +35,40 @@ const Skills = () => {
                 <TextAnimation text="Skills" />
               </p>
             </h1>
-            <p>
-              Expert in front-end development including technologies like{' '}
-              <span className="tech-tag">
-                HTML5, CSS3, JavaScript, jQuery, Angular2, React, TypeScript,
-                Bootstrap, Sass, Git
-              </span>
-              , etc.
-            </p>
-            <p>
-              As a skilled designer with a strong sense of aesthetics and
-              extensive experience in responsive, mobile-first web design, I am
-              dedicated to optimizing code and delivering the best possible user
-              experience. I am committed to providing ongoing support even after
-              the project's completion, ensuring that your needs are met every
-              step of the way. My commitment to excellence guarantees that your
-              project will be handled with the utmost care and professionalism.
-            </p>
-            <p>
-              Visit my &nbsp;
-              <a
-                target="_blank"
-                href="https://www.linkedin.com/in/aishwarya-mensinkai/"
-                rel="noreferrer"
-              >
-                LinkedIn
-              </a>
-              &nbsp;profile for more details. Also you can checkout my cv on
-              this &nbsp;
-              <a target="_blank" href="www.google.com">
-                link
-              </a>
+            <p className="response">
+              <p>
+                Expert in front-end development including technologies like{' '}
+                <span className="tech-tag">
+                  HTML5, CSS3, JavaScript, jQuery, Angular2, React, TypeScript,
+                  Bootstrap, Sass, Git
+                </span>
+                , etc.
+              </p>
+              <p>
+                As a skilled designer with a strong sense of aesthetics and
+                extensive experience in responsive, mobile-first web design, I
+                am dedicated to optimizing code and delivering the best possible
+                user experience. I am committed to providing ongoing support
+                even after the project's completion, ensuring that your needs
+                are met every step of the way. My commitment to excellence
+                guarantees that your project will be handled with the utmost
+                care and professionalism.
+              </p>
+              <p>
+                Visit my &nbsp;
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/aishwarya-mensinkai/"
+                  rel="noreferrer"
+                >
+                  LinkedIn
+                </a>
+                &nbsp;profile for more details. Also you can checkout my cv on
+                this &nbsp;
+                <a target="_blank" href="www.google.com">
+                  link
+                </a>
+              </p>
             </p>
           </div>
           <div className="skills-charts">

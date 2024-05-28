@@ -164,6 +164,9 @@ svg:not(:root) {
     right: -15%;
   }
 }
+.response{
+  font-size: 14px;
+}
 
 /* Non-desktop screens styles */
 @media (max-width: 960px) {
@@ -222,7 +225,7 @@ svg:not(:root) {
   #myCanvasContainer {
     position: relative;
     margin: 0 10% !important;
-    top: -30% !important;
+    top: -80% !important;
     left: -40% !important;
     display: block;
     clear: both;
@@ -247,6 +250,10 @@ svg:not(:root) {
     height: 320px;
     clear: both;
   }
+    .response {
+      font-size: 14px;
+      
+    }
 }
 
 /* Styles for screens smaller than or equal to 768px */
@@ -254,17 +261,12 @@ svg:not(:root) {
   .container {
     top: 0%;
     padding: 30px;
-    /* Adjust padding as needed */
     overflow-y: auto;
-    /* Enable vertical scrolling if content exceeds viewport height */
     max-height: calc(100vh - 40px);
-    /* Limit container height to viewport height minus padding */
 
     .text-zone {
       width: 100%;
-      /* Adjust the text zone width according to your design */
       margin: 0 auto;
-      /* Center align the text zone */
     }
 
     .skills-charts {
@@ -277,8 +279,14 @@ svg:not(:root) {
       transform: none !important;
       margin: 0;
       z-index: 999;
-      /* Ensures the tag cloud stays on top */
     }
+
+        .response {
+          font-size: 14px;
+          position: relative;
+          top: 300px;
+          clear: both;
+        }
   }
 }
 
