@@ -65,7 +65,11 @@ const Skills = () => {
                 </a>
                 &nbsp;profile for more details. Also you can checkout my cv on
                 this &nbsp;
-                <a target="_blank" href="www.google.com">
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1HBDO5KF6s5Us_qnBWTd13c1_SiEMHccx/view?usp=sharing"
+                  rel="noreferrer"
+                >
                   link
                 </a>
               </p>
