@@ -72,6 +72,7 @@ const Skills = () => {
                 >
                   link
                 </a>
+                .
               </p>
             </p>
           </div>
