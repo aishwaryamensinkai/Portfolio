@@ -63,14 +63,15 @@ const Skills = () => {
                 >
                   LinkedIn
                 </a>
-                &nbsp;profile for more details. Also you can checkout my cv on
-                this &nbsp;
+                &nbsp;profile for more details. Also you can checkout my cv
+                <br />
                 <a
+                  style={{ fontSize: '16px' }}
                   target="_blank"
                   href="https://drive.google.com/file/d/1HBDO5KF6s5Us_qnBWTd13c1_SiEMHccx/view?usp=sharing"
                   rel="noreferrer"
                 >
-                  link
+                  click here
                 </a>
                 .
               </p>
