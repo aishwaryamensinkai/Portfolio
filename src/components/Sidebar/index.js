@@ -11,6 +11,7 @@ import {
   faUser,
   faUserGraduate,
   faProjectDiagram,
+  faTerminal,
 } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import Preloader from '../Preloader'
@@ -106,6 +107,15 @@ const Sidebar = () => {
               onClick={handleNavLinkClick}
             >
               <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+            </NavLink>
+            <NavLink
+              exact="true"
+              activeclassname="active"
+              to="/terminal"
+              className="terminal-link"
+              onClick={handleNavLinkClick}
+            >
+              <FontAwesomeIcon icon={faTerminal} color="#4d4d4e" />
             </NavLink>
           </nav>
           <ul>

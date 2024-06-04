@@ -87,16 +87,16 @@
         content: 'ABOUT';
       }
     }
-    a.education-link{
+    a.education-link {
       &:after {
-          content: 'EDU / EXP';
-        }
+        content: 'EDU / EXP';
+      }
     }
 
-    a.skills-link{
+    a.skills-link {
       &:after {
-          content: 'SKILLS';
-        }
+        content: 'SKILLS';
+      }
     }
 
     a.contact-link {
@@ -111,10 +111,16 @@
       }
     }
 
-    a.project-link{
+    a.terminal-link {
+      &::after {
+        content: 'TERMINAL';
+      }
+    }
+
+    a.project-link {
       &:after {
-          content: 'PROJECTS';
-        }
+        content: 'PROJECTS';
+      }
     }
 
     a.active {
@@ -157,7 +163,6 @@
   display: none;
   font-size: 25px;
 }
-
 
 @media screen and (max-width: 1200px) {
   .nav-bar {
@@ -230,7 +235,6 @@
       z-index: 10;
       li {
         margin: 0 10px;
-        // left: 50%;
       }
 
       a {

@@ -9,6 +9,7 @@ import Preloader from './components/Preloader'
 import { useEffect, useState } from 'react'
 import Education from './components/Education'
 import Projects from './components/Projects'
+import Terminal from './components/Terminal'
 
 function App() {
   const [showPreloader, setShowPreloader] = useState(true)
@@ -33,6 +34,7 @@ function App() {
             <Route path="/skills" element={<Skills />} />
             <Route path="/education" element={<Education />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/terminal" element={<Terminal />} />
           </Route>
         </Routes>
       )}
