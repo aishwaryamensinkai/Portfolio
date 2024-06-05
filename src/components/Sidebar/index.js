@@ -13,7 +13,11 @@ import {
   faProjectDiagram,
   faTerminal,
 } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import {
+  faGithub,
+  faLinkedin,
+  faMedium,
+} from '@fortawesome/free-brands-svg-icons'
 import Preloader from '../Preloader'
 import { useEffect, useState } from 'react'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
@@ -135,6 +139,15 @@ const Sidebar = () => {
                 href="https://github.com/aishwaryamensinkai"
               >
                 <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://medium.com/@aishwaryamensinkai"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={faMedium} color="#4d4d4e" />
               </a>
             </li>
           </ul>

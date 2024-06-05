@@ -24,6 +24,7 @@ const Skills = () => {
       clearTimeout(timer1)
     }
   }, [])
+
   return (
     <>
       {showPreloader && <Preloader />}
@@ -31,11 +32,11 @@ const Skills = () => {
         <div className="container skills">
           <div className="text-zone">
             <h1>
-              <p style={{ display: 'flex' }} className="extraCSS">
+              <div style={{ display: 'flex' }} className="extraCSS">
                 <TextAnimation text="Skills" />
-              </p>
+              </div>
             </h1>
-            <p className="response">
+            <div className="response">
               <p>
                 Expert in front-end development including technologies like{' '}
                 <span className="tech-tag">
@@ -75,7 +76,7 @@ const Skills = () => {
                 </a>
                 .
               </p>
-            </p>
+            </div>
           </div>
           <div className="skills-charts">
             <div id="myCanvasContainer">
