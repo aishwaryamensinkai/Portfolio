@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.62712d84.css",
-    "main.js": "/Portfolio/static/js/main.245ed076.js",
+    "main.css": "/Portfolio/static/css/main.9bbac800.css",
+    "main.js": "/Portfolio/static/js/main.2e833f09.js",
     "static/media/flicker.png": "/Portfolio/static/media/flicker.a99ca612cd41c29db4f3.png",
     "static/media/weatherapp.png": "/Portfolio/static/media/weatherapp.e89cde0cf16fa274c93b.png",
     "static/media/readme.png": "/Portfolio/static/media/readme.bb2b4e0192facd1f426a.png",
     "static/media/trademaster.png": "/Portfolio/static/media/trademaster.7365880e5f5bec5938af.png",
     "static/media/expensetracker.png": "/Portfolio/static/media/expensetracker.d30d7e64f208a474844c.png",
+    "static/media/terminal.png": "/Portfolio/static/media/terminal.6f04f6ac6f6c913ae808.png",
     "static/media/notesapp.png": "/Portfolio/static/media/notesapp.aad38fac1c5449e0ba3c.png",
     "static/media/me.png": "/Portfolio/static/media/me.ccff66ca8d3688c1a06b.png",
     "static/media/photo.jpeg": "/Portfolio/static/media/photo.6f39ec849734c5df2a02.jpeg",
@@ -25,11 +26,11 @@
     "static/media/star.svg": "/Portfolio/static/media/star.e1633fc642c32d4e89bf.svg",
     "static/media/down-arrow.svg": "/Portfolio/static/media/down-arrow.b9376c0d743793953832.svg",
     "static/media/up-arrow.svg": "/Portfolio/static/media/up-arrow.b9376c0d743793953832.svg",
-    "main.62712d84.css.map": "/Portfolio/static/css/main.62712d84.css.map",
-    "main.245ed076.js.map": "/Portfolio/static/js/main.245ed076.js.map"
+    "main.9bbac800.css.map": "/Portfolio/static/css/main.9bbac800.css.map",
+    "main.2e833f09.js.map": "/Portfolio/static/js/main.2e833f09.js.map"
   },
   "entrypoints": [
-    "static/css/main.62712d84.css",
-    "static/js/main.245ed076.js"
+    "static/css/main.9bbac800.css",
+    "static/js/main.2e833f09.js"
   ]
 }
