@@ -1,8 +1,8 @@
 @media only screen and (max-width: 768px) {
   .container.terminal-page {
-    top: 13%;
-    padding: 30px; // Adjust padding as needed
-
+    top: 11%;
+    padding: 25px; // Adjust padding as needed
+    overflow-y: scroll;
     .text-zones {
       width: 100%; // Adjust the text zone width according to your design
       margin: 0 auto; // Center align the text zone
@@ -12,10 +12,17 @@
     height: 250px !important;
     width: 370px !important;
   }
+  .extraCSS {
+    font-size: medium;
+  }
+  .spanCss {
+    font-size: 40px;
+  }
 }
 
 .terminal-page {
   top: 7%;
+  overflow-y: scroll;
   h1 {
     font-size: 53px;
     font-family: 'Coolvetica';
@@ -127,28 +134,6 @@
 .clear {
   *zoom: 1;
   clear: both;
-}
-
-.stage-cube-cont {
-  width: 50%;
-  height: 100%;
-  top: 0;
-  padding-top: 18%;
-  margin-left: 0;
-  position: absolute;
-  right: 0;
-  overflow: hidden;
-
-  @media screen and (max-width: 768px) {
-    width: 75%;
-    padding-top: 25%;
-  }
-
-  @media screen and (max-width: 480px) {
-    width: 100%;
-    padding-top: 160%;
-    max-height: 35%;
-  }
 }
 
 .loading {
