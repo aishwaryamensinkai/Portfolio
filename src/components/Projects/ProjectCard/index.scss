@@ -25,8 +25,8 @@
 }
 
 .project-image {
-  object-fit: cover;
-  width: 315px !important;
+  object-fit: fill;
+  width: 280px;
   height: 250px !important;
   box-shadow: 0 10px 30px -10px black;
 }
@@ -56,11 +56,13 @@
 @media screen and (max-width: 992px) {
   .project-image {
     margin-left: 10px;
+    width: 305px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .project-image {
-      margin-left: 10px;
-    }
+    margin-left: 10px;
+    width: 335px;
+  }
 }

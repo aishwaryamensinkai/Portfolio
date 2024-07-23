@@ -46,26 +46,33 @@ const About = () => {
               />
             </h1>
             <p>
-              I am Aishwarya Girish Mensinkai, a Computer Science graduate with
-              a strong foundation in Software Development Engineering (SDE) and
-              front-end development. My passion lies in building highly
-              performant applications that address real-world challenges and
-              provide users with exceptional experiences. Currently, I
-              specialize in the MERN stack, leveraging my skills in both backend
-              and frontend technologies to create robust and scalable solutions.
+              Hello! I'm Aishwarya Girish Mensinkai, a dynamic Computer Science
+              graduate with a solid foundation in Software Development
+              Engineering (SDE). My passion lies in crafting high-performance
+              applications that address real-world challenges and deliver
+              exceptional user experiences. With a keen interest in both backend
+              and frontend technologies, I focus on creating scalable and
+              innovative solutions that drive meaningful impact.
             </p>
-            <p align="LEFT">
-              I'm quiet confident, naturally curious, and perpetually working on
-              improving my chops one design problem at a time.
+            <p align="">
+              I'm confident, naturally curious, and always excited to tackle new
+              challenges. Whether I'm collaborating with a team or working
+              independently, I thrive on solving complex problems and
+              continuously improving my skills. My curiosity fuels my drive to
+              stay ahead of technological advancements and push the boundaries
+              of what's possible.
             </p>
             <p>
-              Whether working as part of a team or tackling projects
-              independently, I thrive in collaborative environments and am
-              always eager to solve complex problems. My curiosity drives me to
-              continuously learn and adapt, ensuring that I stay at the
-              forefront of technological advancements. I am committed to
-              delivering high-quality code and innovative solutions that make a
-              meaningful impact.
+              In my career so far, I've transformed legacy systems, developed
+              intuitive user interfaces, and enhanced application performance.
+              I'm committed to delivering high-quality code and leveraging my
+              diverse skill set to build solutions that are both effective and
+              impactful. From developing robust software to optimizing user
+              engagement, I enjoy every aspect of the development process.
+            </p>
+            <p>
+              Explore my GitHub, LinkedIn, and Portfolio to learn more about my
+              projects and connect with me. Let's innovate together!
             </p>
             <div className="clear"></div>
           </div>

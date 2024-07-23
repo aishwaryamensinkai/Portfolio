@@ -11,20 +11,22 @@ const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = ['i', 's', 'h', 'w', 'a', 'r', 'y', 'a']
   const jobArray = [
-    'w',
-    'e',
-    'b',
-    ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
+    'G',
+    'i',
     'r',
-    '.',
+    'i',
+    's',
+    'h',
+    ' ',
+    'M',
+    'e',
+    'n',
+    's',
+    'i',
+    'n',
+    'k',
+    'a',
+    'i',
   ]
   const [showPreloader, setShowPreloader] = useState(true)
 
@@ -71,7 +73,9 @@ const Home = () => {
                 idx={22}
               />
             </h1>
-            <h2>SDE / Frontend Developer</h2>
+            <h2>
+              Software Engineer | Developer |<br /> Programmer | Tech Enthusiast
+            </h2>
             <Link to="/contact" className="flat-button">
               CONTACT ME
             </Link>

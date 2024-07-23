@@ -38,22 +38,24 @@ const Skills = () => {
             </h1>
             <div className="response">
               <p>
-                Expert in front-end development including technologies like{' '}
+                I bring expertise in various aspects of software development,
+                including a strong foundation in technologies such as{' '}
                 <span className="tech-tag">
-                  HTML5, CSS3, JavaScript, jQuery, Angular2, React, TypeScript,
+                  HTML5, CSS3, JavaScript, jQuery, Angular, React, TypeScript,
                   Bootstrap, Sass, Git
                 </span>
-                , etc.
+                , and more. My skills span both front-end and back-end
+                development, allowing me to build robust and scalable solutions.
               </p>
               <p>
-                As a skilled designer with a strong sense of aesthetics and
-                extensive experience in responsive, mobile-first web design, I
-                am dedicated to optimizing code and delivering the best possible
-                user experience. I am committed to providing ongoing support
-                even after the project's completion, ensuring that your needs
-                are met every step of the way. My commitment to excellence
-                guarantees that your project will be handled with the utmost
-                care and professionalism.
+                With a keen eye for design and a deep understanding of
+                responsive, mobile-first web practices, I am dedicated to
+                optimizing code and delivering outstanding user experiences. I
+                pride myself on providing comprehensive support throughout and
+                after project completion, ensuring that your requirements are
+                met with the highest level of professionalism. My commitment to
+                excellence ensures that every project is handled with care,
+                resulting in impactful and effective solutions.
               </p>
               <p>
                 Visit my &nbsp;
