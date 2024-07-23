@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9bbac800.css",
-    "main.js": "/Portfolio/static/js/main.2e833f09.js",
+    "main.css": "/Portfolio/static/css/main.988f43ef.css",
+    "main.js": "/Portfolio/static/js/main.234f6311.js",
+    "static/media/sale.png": "/Portfolio/static/media/sale.c35071f9d8e83bb754ca.png",
+    "static/media/movie.png": "/Portfolio/static/media/movie.28b545d01c39e57f6739.png",
+    "static/media/fitness.png": "/Portfolio/static/media/fitness.fa61d7f2ef1fe5f4bc91.png",
     "static/media/flicker.png": "/Portfolio/static/media/flicker.a99ca612cd41c29db4f3.png",
+    "static/media/dma.png": "/Portfolio/static/media/dma.a6079a5c0b0633f24daf.png",
+    "static/media/kp.png": "/Portfolio/static/media/kp.b82d8f172091af9a2e51.png",
     "static/media/weatherapp.png": "/Portfolio/static/media/weatherapp.e89cde0cf16fa274c93b.png",
+    "static/media/ap.png": "/Portfolio/static/media/ap.e703ce2b226ad2aca136.png",
+    "static/media/vcall.png": "/Portfolio/static/media/vcall.ec7de961a45553a187e8.png",
+    "static/media/terminal.png": "/Portfolio/static/media/terminal.6f04f6ac6f6c913ae808.png",
     "static/media/readme.png": "/Portfolio/static/media/readme.bb2b4e0192facd1f426a.png",
     "static/media/trademaster.png": "/Portfolio/static/media/trademaster.7365880e5f5bec5938af.png",
     "static/media/expensetracker.png": "/Portfolio/static/media/expensetracker.d30d7e64f208a474844c.png",
-    "static/media/terminal.png": "/Portfolio/static/media/terminal.6f04f6ac6f6c913ae808.png",
     "static/media/notesapp.png": "/Portfolio/static/media/notesapp.aad38fac1c5449e0ba3c.png",
     "static/media/me.png": "/Portfolio/static/media/me.ccff66ca8d3688c1a06b.png",
     "static/media/photo.jpeg": "/Portfolio/static/media/photo.6f39ec849734c5df2a02.jpeg",
@@ -26,11 +33,11 @@
     "static/media/star.svg": "/Portfolio/static/media/star.e1633fc642c32d4e89bf.svg",
     "static/media/down-arrow.svg": "/Portfolio/static/media/down-arrow.b9376c0d743793953832.svg",
     "static/media/up-arrow.svg": "/Portfolio/static/media/up-arrow.b9376c0d743793953832.svg",
-    "main.9bbac800.css.map": "/Portfolio/static/css/main.9bbac800.css.map",
-    "main.2e833f09.js.map": "/Portfolio/static/js/main.2e833f09.js.map"
+    "main.988f43ef.css.map": "/Portfolio/static/css/main.988f43ef.css.map",
+    "main.234f6311.js.map": "/Portfolio/static/js/main.234f6311.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bbac800.css",
-    "static/js/main.2e833f09.js"
+    "static/css/main.988f43ef.css",
+    "static/js/main.234f6311.js"
   ]
 }
