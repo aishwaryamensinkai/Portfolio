@@ -71,7 +71,7 @@ const Skills = () => {
                 <a
                   style={{ fontSize: '16px' }}
                   target="_blank"
-                  href="https://drive.google.com/file/d/1HBDO5KF6s5Us_qnBWTd13c1_SiEMHccx/view?usp=sharing"
+                  href="https://drive.google.com/drive/folders/1S8OFTZpjQOSMUM4BV1RJRgvgxOaSi12X?usp=drive_link"
                   rel="noreferrer"
                 >
                   click here
