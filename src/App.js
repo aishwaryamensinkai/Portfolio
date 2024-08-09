@@ -10,17 +10,24 @@ import { useEffect, useState } from 'react'
 import Education from './components/Education'
 import Projects from './components/Projects'
 import Terminal from './components/Terminal'
+import ReactGA from 'react-ga4'
 
 function App() {
   const [showPreloader, setShowPreloader] = useState(true)
+  const trackingId = process.env.REACT_APP_GA_TRACKING_ID
 
   useEffect(() => {
+    if (trackingId) {
+      ReactGA.initialize(trackingId)
+      ReactGA.send('pageview')
+    }
+
     const timer = setTimeout(() => {
       setShowPreloader(false)
     }, 3000)
 
     return () => clearTimeout(timer)
-  }, [])
+  }, [trackingId])
 
   return (
     <>
