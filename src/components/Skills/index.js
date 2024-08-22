@@ -41,8 +41,8 @@ const Skills = () => {
                 I bring expertise in various aspects of software development,
                 including a strong foundation in technologies such as{' '}
                 <span className="tech-tag">
-                  HTML5, CSS3, JavaScript, jQuery, Angular, React, TypeScript,
-                  Bootstrap, Sass, Git
+                  HTML5, CSS3, JavaScript, jQuery, Java, Angular, React,
+                  TypeScript, Bootstrap, Sass, Git
                 </span>
                 , and more. My skills span both front-end and back-end
                 development, allowing me to build robust and scalable solutions.

@@ -10,38 +10,89 @@ const TextSphere = () => {
 
   useEffect(() => {
     const cloudContainer = cloudContainerRef.current
+    // Web Technologies
     const texts = [
       'HTML5',
       'CSS3',
+      'CSS',
+      'XML',
       'JavaScript',
-      'TypeScript',
-      'React',
-      'Angular',
-      'Node.js',
-      'Flutter',
-      'Firebase',
-      'RESTful APIs',
-      'GraphQL',
-      'MongoDB',
-      'MySQL',
-      'PostgreSQL',
-      'Git',
-      'Docker',
-      'AWS',
+      'AJAX',
+      'jQuery',
+      'JSON',
+      'Bootstrap',
+    ]
+
+    // Languages & Methodologies
+    texts.push(
       'Java',
       'C++',
       'Python',
-      'SwiftUI',
-      'Sass',
-      'Bootstrap',
-      'SQL',
-      'RxJs',
       'C',
-      'Splunk',
-      'Linux',
+      'TypeScript',
+      'Agile/Scrum',
+      'Waterfall'
+    )
+
+    // J2EE Technologies
+    // texts.push(
+    //   "J2SE",
+    //   "J2EE",
+    //   "Servlets",
+    //   "JSP",
+    //   "JMS",
+    //   "JNDI",
+    //   "JAX-WS",
+    //   "JAX-RS",
+    //   "JAX-B",
+    //   "JAX-P SAX"
+    // );
+
+    // Front-End Technologies
+    texts.push('Angular.js', 'Node.js', 'React.js')
+
+    // Databases
+    texts.push(
+      'MongoDB',
+      'NoSQL',
+      'PostgreSQL',
+      'JDBC',
+      'MySQL',
+      'SQL Loader',
+      'SQL Server'
+    )
+
+    // Frameworks
+    texts.push('Spring Boot', 'Angular', 'Docker', 'Hibernate', 'Kubernetes')
+
+    // Back-End Technologies
+    texts.push('Node.js', 'Python', 'Java', '.NET', 'Express.js')
+
+    // Development Tools
+    texts.push(
+      'Visual Studio Code',
+      'Intellij',
+      'Eclipse',
+      'Spring Tool Suite',
+      'Postman',
+      'SOAP UI',
+      'Jenkins',
+      'JIRA',
+      'Confluence'
+    )
+
+    // Cloud Platforms, Operating Systems & Version Control
+    texts.push(
+      'AWS',
+      'Azure',
+      'GCP',
       'Windows',
-      'Mac OS',
-    ]
+      'Mac',
+      'Linux',
+      'Git',
+      'GitHub',
+      'GitLab'
+    )
     const options = {
       radius: 350,
       maxSpeed: 'normal',
