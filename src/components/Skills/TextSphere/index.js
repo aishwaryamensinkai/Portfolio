@@ -12,7 +12,6 @@ const TextSphere = () => {
     const cloudContainer = cloudContainerRef.current
     const texts = []
 
-    // Web Technologies
     texts.push(
       'HTML/HTML5',
       'CSS3',
@@ -25,25 +24,18 @@ const TextSphere = () => {
       'Bootstrap'
     )
 
-    // Methodologies
     texts.push('Agile/Scrum', 'Waterfall')
 
-    // Languages
     texts.push('Java', 'C++', 'Python', 'C', 'TypeScript')
 
-    // Front-End Technologies
     texts.push('Angular.js', 'Node.js', 'React.js')
 
-    // Databases
     texts.push('MySQL', 'SQL Server', 'JDBC', 'NoSQL', 'MongoDB')
 
-    // Frameworks
     texts.push('Spring Boot', 'Angular', 'Docker', 'Hibernate', 'Kubernetes')
 
-    // Back-End Technologies
     texts.push('Node.js', 'Python', 'Java', '.NET', 'Express.js')
 
-    // Development Tools
     texts.push(
       'Visual Studio Code',
       'Intellij',
@@ -56,7 +48,6 @@ const TextSphere = () => {
       'Confluence'
     )
 
-    // Cloud Platforms, Operating Systems & Version Control
     texts.push(
       'AWS',
       'Windows',
@@ -66,8 +57,6 @@ const TextSphere = () => {
       'GitHub',
       'GitLab'
     )
-
-    // console.log(texts)
 
     const options = {
       radius: 350,
