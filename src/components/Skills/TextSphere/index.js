@@ -10,9 +10,11 @@ const TextSphere = () => {
 
   useEffect(() => {
     const cloudContainer = cloudContainerRef.current
+    const texts = []
+
     // Web Technologies
-    const texts = [
-      'HTML5',
+    texts.push(
+      'HTML/HTML5',
       'CSS3',
       'CSS',
       'XML',
@@ -20,47 +22,20 @@ const TextSphere = () => {
       'AJAX',
       'jQuery',
       'JSON',
-      'Bootstrap',
-    ]
-
-    // Languages & Methodologies
-    texts.push(
-      'Java',
-      'C++',
-      'Python',
-      'C',
-      'TypeScript',
-      'Agile/Scrum',
-      'Waterfall'
+      'Bootstrap'
     )
 
-    // J2EE Technologies
-    // texts.push(
-    //   "J2SE",
-    //   "J2EE",
-    //   "Servlets",
-    //   "JSP",
-    //   "JMS",
-    //   "JNDI",
-    //   "JAX-WS",
-    //   "JAX-RS",
-    //   "JAX-B",
-    //   "JAX-P SAX"
-    // );
+    // Methodologies
+    texts.push('Agile/Scrum', 'Waterfall')
+
+    // Languages
+    texts.push('Java', 'C++', 'Python', 'C', 'TypeScript')
 
     // Front-End Technologies
     texts.push('Angular.js', 'Node.js', 'React.js')
 
     // Databases
-    texts.push(
-      'MongoDB',
-      'NoSQL',
-      'PostgreSQL',
-      'JDBC',
-      'MySQL',
-      'SQL Loader',
-      'SQL Server'
-    )
+    texts.push('MySQL', 'SQL Server', 'JDBC', 'NoSQL', 'MongoDB')
 
     // Frameworks
     texts.push('Spring Boot', 'Angular', 'Docker', 'Hibernate', 'Kubernetes')
@@ -84,8 +59,6 @@ const TextSphere = () => {
     // Cloud Platforms, Operating Systems & Version Control
     texts.push(
       'AWS',
-      'Azure',
-      'GCP',
       'Windows',
       'Mac',
       'Linux',
@@ -93,6 +66,9 @@ const TextSphere = () => {
       'GitHub',
       'GitLab'
     )
+
+    // console.log(texts)
+
     const options = {
       radius: 350,
       maxSpeed: 'normal',
